@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin-bottom: 2%;
+        }
+        fieldset{
+            width: 40%;
+        }
+        legend{
+            font-weight: bolder;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="myForm">
+        <fieldset>
+            <legend>User Info</legend>
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" name="" id="name" placeholder="Name">
+       </div>
+       <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email">
+       </div>
+       <button type="submit">Submit</button>
+    </fieldset>
+    </form>
+    <div id="container">
+        <h2>Guess a number between 1 and 20, you have <span id="attempts"></span> attempts left</h2>
+        
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
